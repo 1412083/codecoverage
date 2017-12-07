@@ -175,7 +175,7 @@ public class ExampleInstrumentedTest {
             splitStringAndClick(op);
             splitStringAndClick(num2);
             splitStringAndClick(equal);
-
+            //ahihi
             //get results
             UiObject result = new UiObject(new UiSelector()
                     .className("android.widget.TextView").instance(4));
