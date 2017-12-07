@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean checkError(){
         String error = textViewNotification.getText().toString();
-        if (error =="Error"){
+        if (error =="error"){
             return true;
         }
         return false;
