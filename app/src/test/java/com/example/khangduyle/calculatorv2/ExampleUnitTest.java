@@ -38,7 +38,7 @@ public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
 
-        for (int i=0;i<questionList.size();i++){
+        for (int i=0;i<7;i++){
             String[] a =questionList.get(i);
             if (num1.setPhanSo(a[0]) && num2.setPhanSo(a[1])){
                 res=tinhPS.Cong(num1,num2);
@@ -54,7 +54,7 @@ public class ExampleUnitTest {
     @Test
     public void subtraction_isCorrect() throws Exception {
 
-        for (int i=0;i<questionList.size();i++){
+        for (int i=7;i<14;i++){
             String[] a =questionList.get(i);
             if (num1.setPhanSo(a[0]) && num2.setPhanSo(a[1])){
                 res=tinhPS.Tru(num1,num2);
@@ -70,7 +70,7 @@ public class ExampleUnitTest {
     @Test
     public void Multi_isCorrect() throws Exception {
 
-        for (int i=0;i<questionList.size();i++){
+        for (int i=14;i<21;i++){
             String[] a =questionList.get(i);
             if (num1.setPhanSo(a[0]) && num2.setPhanSo(a[1])){
                 res=tinhPS.Nhan(num1,num2);
@@ -86,7 +86,7 @@ public class ExampleUnitTest {
     @Test
     public void Devision_isCorrect() throws Exception {
 
-        for (int i=0;i<questionList.size();i++){
+        for (int i=21;i<28;i++){
             String[] a =questionList.get(i);
             if (num1.setPhanSo(a[0]) && num2.setPhanSo(a[1])){
                 res=tinhPS.Chia(num1,num2);
