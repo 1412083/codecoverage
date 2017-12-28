@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     PhanSo num2;
     PhanSo res;
     TinhPhanSo tinhPhanSo;
+    private ItemRegistry control;
     int round;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initControls();
         initControlListener();
+
+
     }
 
     private void initControlListener() {
