@@ -13,49 +13,40 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text_view_num1"
+        android:id="@+id/text_view_chuvi"
         android:textSize="40sp"
         android:textAlignment="viewEnd"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text_view_op"
+        android:id="@+id/text_view_loai"
         android:textSize="20sp"
         android:textAlignment="viewEnd"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_view_num2"
-        android:textSize="40sp"
-        android:textAlignment="viewEnd"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_view_result"
-        android:textSize="50sp"
-        android:textAlignment="viewEnd"/>
 
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent">
-        <Button
-            android:id="@+id/button_1"
-            android:text="1"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_2"
-            android:text="2"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_3"
-            android:text="3"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_add"
-            android:text="+"
-            android:textSize="20sp"/>
+        <TextView
+            android:text="Ax"
+            android:textSize="10sp"/>
+        <EditText
+            android:id="@+id/Ax"
+            android:textSize="30sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Ay"
+            android:textSize="10sp"/>
+        <EditText
+            android:id="@+id/Ay"
+            android:textSize="30sp"/>
     </TableRow>
 
 
@@ -63,81 +54,63 @@
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent">
-        <Button
-            android:id="@+id/button_4"
-            android:text="4"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_5"
-            android:text="5"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_6"
-            android:text="6"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_sub"
-            android:text="-"
-            android:textSize="20sp"/>
+        <TextView
+            android:text="Bx"
+            android:textSize="10sp"/>
+        <EditText
+            android:id="@+id/Bx"
+            android:textSize="30sp"/>
     </TableRow>
 
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="By"
+            android:textSize="10sp"/>
+        <EditText
+            android:id="@+id/By"
+            android:textSize="30sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="Cx"
+            android:textSize="10sp"/>
+        <EditText
+            android:id="@+id/Cx"
+            android:textSize="30sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Cy"
+            android:textSize="10sp"/>
+        <EditText
+            android:id="@+id/Cy"
+            android:textSize="30sp"/>
+    </TableRow>
 
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent">
         <Button
-            android:id="@+id/button_7"
-            android:text="7"
+            android:id="@+id/type"
+            android:text="Loại tam giác"
             android:textSize="20sp"/>
         <Button
-            android:id="@+id/button_8"
-            android:text="8"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_9"
-            android:text="9"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_mul"
-            android:text="x"
+            android:id="@+id/chuvi"
+            android:text="Chu vi tam giác"
             android:textSize="20sp"/>
     </TableRow>
 
 
-    <TableRow
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
-        <Button
-            android:id="@+id/button_clear"
-            android:text="CLEAR"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_0"
-            android:text="0"
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_equal"
-            android:text="="
-            android:textSize="20sp"/>
-        <Button
-            android:id="@+id/button_div"
-            android:text=":"
-            android:textSize="20sp"/>
-    </TableRow>
-    <TableRow
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
-        <Button
-            android:id="@+id/button_slash"
-            android:text="/"
-            android:textSize="20sp"/>
 
-    </TableRow>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_view_notification"
-        android:textColor="@android:color/holo_red_light"
-        android:textSize="20sp"
-        android:textAlignment="viewEnd"/>
 </TableLayout>

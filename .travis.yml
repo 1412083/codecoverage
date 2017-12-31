@@ -50,7 +50,7 @@ before_script:
     - android list targets
     - echo no | android create avd --force -n test -t android-21 --abi armeabi-v7a
     - emulator -avd test -no-skin -no-audio -no-window &    #Start emulator
-  
+    
 
 script:
     - echo "Travis branch is $TRAVIS_BRANCH"
@@ -76,3 +76,4 @@ after_success:
     - codecov                       #Run codecov
 
 after_failure: "cat $TRAVIS_BUILD_DIR/app/build/outputs/lint-results-debug.xml"
+https://github.com/ngohuynhngockhanh/selenium-project/blob/master/test/ok/index.js
